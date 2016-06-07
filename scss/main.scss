@@ -1,5 +1,5 @@
-$bg-color: red;
-$hd-color: darken($bg-color, 10%);
+$bg-color: transparentize(darken(blue, 30%), 0.25);
+$hd-color: lighten($bg-color, 40%);
 
 @mixin respond-to($breakpoint) {
     @if $breakpoint == "medium" {
@@ -62,6 +62,11 @@ $hd-color: darken($bg-color, 10%);
 }
 
 html {
+    background-image: url('/img/synth-bw.jpg');
+    background-size: cover;
+}
+
+body {
     @include animation('ani-bg 9.777s infinite');
 }
 
@@ -75,10 +80,11 @@ body, html {
 }
 
 h1, h2 {
-    font-family: 'firecatmedium';
+    font-family: 'profontwindowsregular';
     text-align: center;
-    @include animation('ani-hd 11.11s infinite');
+    @include animation('ani-hd 8.11s infinite');
     margin: 2vw 0;
+    line-height: 0.75;
 }
 
 h1 {
@@ -86,7 +92,7 @@ h1 {
 }
 
 h2 {
-    font-size: 5.2vw;
+    font-size: 9vw;
 }
 
 .splash {
@@ -97,4 +103,13 @@ h2 {
     width: 100%;
 }
 
+.logo {
+    display: block;
+    width: 50vw;
+    margin: 0 auto;
+}
 
+.dates {
+    width: 50vw;
+    margin: 4vw auto;
+}

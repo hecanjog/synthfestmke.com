@@ -1,74 +1,78 @@
 @-webkit-keyframes ani-bg {
   0% {
-    background-color: red; }
+    background-color: rgba(0, 0, 102, 0.75); }
   50% {
-    background-color: #ffd500; }
+    background-color: rgba(85, 0, 102, 0.75); }
   100% {
-    background-color: red; } }
+    background-color: rgba(0, 0, 102, 0.75); } }
 @-moz-keyframes ani-bg {
   0% {
-    background-color: red; }
+    background-color: rgba(0, 0, 102, 0.75); }
   50% {
-    background-color: #ffd500; }
+    background-color: rgba(85, 0, 102, 0.75); }
   100% {
-    background-color: red; } }
+    background-color: rgba(0, 0, 102, 0.75); } }
 @-ms-keyframes ani-bg {
   0% {
-    background-color: red; }
+    background-color: rgba(0, 0, 102, 0.75); }
   50% {
-    background-color: #ffd500; }
+    background-color: rgba(85, 0, 102, 0.75); }
   100% {
-    background-color: red; } }
+    background-color: rgba(0, 0, 102, 0.75); } }
 @-o-keyframes ani-bg {
   0% {
-    background-color: red; }
+    background-color: rgba(0, 0, 102, 0.75); }
   50% {
-    background-color: #ffd500; }
+    background-color: rgba(85, 0, 102, 0.75); }
   100% {
-    background-color: red; } }
+    background-color: rgba(0, 0, 102, 0.75); } }
 @keyframes ani-bg {
   0% {
-    background-color: red; }
+    background-color: rgba(0, 0, 102, 0.75); }
   50% {
-    background-color: #ffd500; }
+    background-color: rgba(85, 0, 102, 0.75); }
   100% {
-    background-color: red; } }
+    background-color: rgba(0, 0, 102, 0.75); } }
 @-webkit-keyframes ani-hd {
   0% {
-    color: #cc0000; }
+    color: rgba(51, 51, 255, 0.75); }
   50% {
-    color: #ccaa00; }
+    color: rgba(221, 51, 255, 0.75); }
   100% {
-    color: #cc0000; } }
+    color: rgba(51, 51, 255, 0.75); } }
 @-moz-keyframes ani-hd {
   0% {
-    color: #cc0000; }
+    color: rgba(51, 51, 255, 0.75); }
   50% {
-    color: #ccaa00; }
+    color: rgba(221, 51, 255, 0.75); }
   100% {
-    color: #cc0000; } }
+    color: rgba(51, 51, 255, 0.75); } }
 @-ms-keyframes ani-hd {
   0% {
-    color: #cc0000; }
+    color: rgba(51, 51, 255, 0.75); }
   50% {
-    color: #ccaa00; }
+    color: rgba(221, 51, 255, 0.75); }
   100% {
-    color: #cc0000; } }
+    color: rgba(51, 51, 255, 0.75); } }
 @-o-keyframes ani-hd {
   0% {
-    color: #cc0000; }
+    color: rgba(51, 51, 255, 0.75); }
   50% {
-    color: #ccaa00; }
+    color: rgba(221, 51, 255, 0.75); }
   100% {
-    color: #cc0000; } }
+    color: rgba(51, 51, 255, 0.75); } }
 @keyframes ani-hd {
   0% {
-    color: #cc0000; }
+    color: rgba(51, 51, 255, 0.75); }
   50% {
-    color: #ccaa00; }
+    color: rgba(221, 51, 255, 0.75); }
   100% {
-    color: #cc0000; } }
+    color: rgba(51, 51, 255, 0.75); } }
 html {
+  background-image: url("/img/synth-bw.jpg");
+  background-size: cover; }
+
+body {
   -webkit-animation: ani-bg 9.777s infinite;
   -moz-animation: ani-bg 9.777s infinite;
   -ms-animation: ani-bg 9.777s infinite;
@@ -84,20 +88,21 @@ body, html {
   padding: 0; }
 
 h1, h2 {
-  font-family: 'firecatmedium';
+  font-family: 'profontwindowsregular';
   text-align: center;
-  -webkit-animation: ani-hd 11.11s infinite;
-  -moz-animation: ani-hd 11.11s infinite;
-  -ms-animation: ani-hd 11.11s infinite;
-  -o-animation: ani-hd 11.11s infinite;
-  animation: ani-hd 11.11s infinite;
-  margin: 2vw 0; }
+  -webkit-animation: ani-hd 8.11s infinite;
+  -moz-animation: ani-hd 8.11s infinite;
+  -ms-animation: ani-hd 8.11s infinite;
+  -o-animation: ani-hd 8.11s infinite;
+  animation: ani-hd 8.11s infinite;
+  margin: 2vw 0;
+  line-height: 0.75; }
 
 h1 {
   font-size: 7vw; }
 
 h2 {
-  font-size: 5.2vw; }
+  font-size: 9vw; }
 
 .splash {
   position: absolute;
@@ -105,5 +110,14 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%; }
+
+.logo {
+  display: block;
+  width: 50vw;
+  margin: 0 auto; }
+
+.dates {
+  width: 50vw;
+  margin: 4vw auto; }
 
 /*# sourceMappingURL=main.css.map */
