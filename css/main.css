@@ -118,6 +118,7 @@ h2 {
 
 .dates {
   width: 50vw;
-  margin: 4vw auto; }
+  margin: 4vw auto;
+  text-align: right; }
 
 /*# sourceMappingURL=main.css.map */
