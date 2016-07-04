@@ -1,124 +1,145 @@
 @-webkit-keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   50% {
-    background-color: rgba(85, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   100% {
-    background-color: rgba(0, 0, 102, 0.75); } }
+    background-color: rgba(0, 0, 0, 0.75); } }
 @-moz-keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   50% {
-    background-color: rgba(85, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   100% {
-    background-color: rgba(0, 0, 102, 0.75); } }
+    background-color: rgba(0, 0, 0, 0.75); } }
 @-ms-keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   50% {
-    background-color: rgba(85, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   100% {
-    background-color: rgba(0, 0, 102, 0.75); } }
+    background-color: rgba(0, 0, 0, 0.75); } }
 @-o-keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   50% {
-    background-color: rgba(85, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   100% {
-    background-color: rgba(0, 0, 102, 0.75); } }
+    background-color: rgba(0, 0, 0, 0.75); } }
 @keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   50% {
-    background-color: rgba(85, 0, 102, 0.75); }
+    background-color: rgba(0, 0, 0, 0.75); }
   100% {
-    background-color: rgba(0, 0, 102, 0.75); } }
+    background-color: rgba(0, 0, 0, 0.75); } }
 @-webkit-keyframes ani-hd {
   0% {
-    color: rgba(51, 51, 255, 0.75); }
+    color: #ff5a77; }
   50% {
-    color: rgba(221, 51, 255, 0.75); }
+    color: #ffc75a; }
   100% {
-    color: rgba(51, 51, 255, 0.75); } }
+    color: #ff5a77; } }
 @-moz-keyframes ani-hd {
   0% {
-    color: rgba(51, 51, 255, 0.75); }
+    color: #ff5a77; }
   50% {
-    color: rgba(221, 51, 255, 0.75); }
+    color: #ffc75a; }
   100% {
-    color: rgba(51, 51, 255, 0.75); } }
+    color: #ff5a77; } }
 @-ms-keyframes ani-hd {
   0% {
-    color: rgba(51, 51, 255, 0.75); }
+    color: #ff5a77; }
   50% {
-    color: rgba(221, 51, 255, 0.75); }
+    color: #ffc75a; }
   100% {
-    color: rgba(51, 51, 255, 0.75); } }
+    color: #ff5a77; } }
 @-o-keyframes ani-hd {
   0% {
-    color: rgba(51, 51, 255, 0.75); }
+    color: #ff5a77; }
   50% {
-    color: rgba(221, 51, 255, 0.75); }
+    color: #ffc75a; }
   100% {
-    color: rgba(51, 51, 255, 0.75); } }
+    color: #ff5a77; } }
 @keyframes ani-hd {
   0% {
-    color: rgba(51, 51, 255, 0.75); }
+    color: #ff5a77; }
   50% {
-    color: rgba(221, 51, 255, 0.75); }
+    color: #ffc75a; }
   100% {
-    color: rgba(51, 51, 255, 0.75); } }
+    color: #ff5a77; } }
+* {
+  font-family: 'profontwindowsregular'; }
+
 html {
   background-image: url("/img/synth-bw.jpg");
-  background-size: cover; }
-
-body {
-  -webkit-animation: ani-bg 9.777s infinite;
-  -moz-animation: ani-bg 9.777s infinite;
-  -ms-animation: ani-bg 9.777s infinite;
-  -o-animation: ani-bg 9.777s infinite;
-  animation: ani-bg 9.777s infinite; }
-
-body, html {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0; }
+  background-size: cover;
+  padding-top: 14rem; }
 
 h1, h2 {
-  font-family: 'profontwindowsregular';
   text-align: center;
-  -webkit-animation: ani-hd 8.11s infinite;
-  -moz-animation: ani-hd 8.11s infinite;
-  -ms-animation: ani-hd 8.11s infinite;
-  -o-animation: ani-hd 8.11s infinite;
-  animation: ani-hd 8.11s infinite;
+  color: #ff748c;
   margin: 2vw 0;
-  line-height: 0.75; }
+  line-height: 0.75;
+  background-color: rgba(128, 0, 128, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem;
+  text-transform: lowercase; }
 
 h1 {
   font-size: 7vw; }
 
 h2 {
-  font-size: 9vw; }
+  font-size: 1.5rem; }
+
+h3 {
+  margin: 0;
+  padding: 0 0.5rem; }
 
 .splash {
+  -webkit-animation: ani-bg 7.777s infinite;
+  -moz-animation: ani-bg 7.777s infinite;
+  -ms-animation: ani-bg 7.777s infinite;
+  -o-animation: ani-bg 7.777s infinite;
+  animation: ani-bg 7.777s infinite;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 12rem;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%; }
+  top: 0;
+  left: 0; }
+  .splash a {
+    width: 100%; }
 
 .logo {
   display: block;
-  width: 50vw;
-  margin: 0 auto; }
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+  height: 9.25rem; }
 
 .dates {
-  width: 50vw;
-  margin: 4vw auto;
-  text-align: right; }
+  position: absolute;
+  left: 1rem;
+  bottom: -1rem;
+  font-size: 2rem;
+  text-align: right;
+  margin: 0; }
+
+.schedule {
+  zoom: 1;
+  overflow: hidden; }
+
+.column {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.5rem; }
+
+h3, .performers li {
+  color: #fff;
+  background-color: #ff748c;
+  padding: 1rem;
+  box-sizing: border-box; }
 
 /*# sourceMappingURL=main.css.map */
