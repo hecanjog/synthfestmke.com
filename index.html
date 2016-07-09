@@ -5,12 +5,29 @@
 
         <link rel="stylesheet" href="css/profont.css" />
         <link rel="stylesheet" href="css/main.css" />
+
+        <script>
+            var offset = -2000;
+
+            setInterval(function() {
+                var waveform = document.getElementById('waveform');
+                waveform.style = 'left: ' + offset + 'px';
+
+                if(offset <= 0) {
+                    offset = offset + 3;
+                } else {
+                    offset = -2000;
+                }
+            }, 40);
+
+        </script>
     </head>
 
     <body>
         <header class="splash">
             <a href="http://www.facebook.com/synthfestmke/">
                 <img class="logo" src="/svg/logo-white.svg" />
+                <img class="waveform" id="waveform" src="/svg/waveform.svg" />
                 <h2 class="dates">July 23rd & 24th 2016</h2>
             </a>
         </header>
@@ -88,9 +105,8 @@
                 "sameAs":"http://www.acmerecordsmke.com"
             },
             "startDate":"2016-07-23T13:00:00-0500"
-        }]</script>
-
-        <script type="application/ld+json">[{
+        },
+        {
             "@context":"http://schema.org",
             "@type":"MusicEvent",
             "name":"Synth Fest Day 2",

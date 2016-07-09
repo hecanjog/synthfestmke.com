@@ -1,6 +1,7 @@
-$bg-color: transparentize(darken(black, 30%), 0.25);
-$hd-color: lighten($bg-color, 40%);
+//$bg-color: transparentize(darken(black, 30%), 0.25);
+//$hd-color: lighten($bg-color, 40%);
 $hd-color: darken(pink, 20%);
+$bg-color: $hd-color;
 
 $medium-width: 640px;
 $large-width: 1024px;
@@ -113,16 +114,17 @@ h3 {
     background-color: $bg-color;
     width: 100%;
     position: relative;
+    overflow: hidden;
 
     a {
         width: 100%;
     }
 
-    height: 25vw;
+    height: 43.5vw;
     margin-bottom: 5vw;
 
     @include respond-to(medium) {
-        height: 12rem;
+        height: 14.5rem;
     }
 }
 
@@ -130,13 +132,29 @@ h3 {
     display: block;
     position: absolute;
     height: 20vw;
-    top: 2vw;
+    top: 4vw;
     left: 4vw;
+    z-index: 1;
 
     @include respond-to(medium) {
         left: 1rem;
-        top: 0.5rem;
+        top: 1rem;
         height: 9.25rem;
+    }
+}
+
+.waveform {
+    position: absolute;
+    top: 4vw;
+    height: 9.7vw;
+    left: 0;
+    opacity: 0.2;
+    z-index: 0;
+
+
+    @include respond-to(medium) {
+        top: 1rem;
+        height: 4.5rem;
     }
 }
 
@@ -145,12 +163,12 @@ h3 {
     text-align: right;
     margin: 0;
     font-size: 4vw;
-    left: 2vw;
-    bottom: -10vw;
+    left: 4vw;
+    bottom: 4vw;
 
     @include respond-to(medium) {
         left: 1rem;
-        bottom: -1rem;
+        bottom: 1rem;
         font-size: 2rem;
     }
 }

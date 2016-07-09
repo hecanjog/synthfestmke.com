@@ -1,38 +1,38 @@
 @-webkit-keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ff5a77; }
   50% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ffc75a; }
   100% {
-    background-color: rgba(0, 0, 0, 0.75); } }
+    background-color: #ff5a77; } }
 @-moz-keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ff5a77; }
   50% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ffc75a; }
   100% {
-    background-color: rgba(0, 0, 0, 0.75); } }
+    background-color: #ff5a77; } }
 @-ms-keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ff5a77; }
   50% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ffc75a; }
   100% {
-    background-color: rgba(0, 0, 0, 0.75); } }
+    background-color: #ff5a77; } }
 @-o-keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ff5a77; }
   50% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ffc75a; }
   100% {
-    background-color: rgba(0, 0, 0, 0.75); } }
+    background-color: #ff5a77; } }
 @keyframes ani-bg {
   0% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ff5a77; }
   50% {
-    background-color: rgba(0, 0, 0, 0.75); }
+    background-color: #ffc75a; }
   100% {
-    background-color: rgba(0, 0, 0, 0.75); } }
+    background-color: #ff5a77; } }
 @-webkit-keyframes ani-hd {
   0% {
     color: #ff5a77; }
@@ -103,40 +103,54 @@ h3 {
       font-size: 1.5rem; } }
 
 .splash {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #ff5a77;
   width: 100%;
   position: relative;
-  height: 25vw;
+  overflow: hidden;
+  height: 43.5vw;
   margin-bottom: 5vw; }
   .splash a {
     width: 100%; }
   @media all and (min-width: 640px) {
     .splash {
-      height: 12rem; } }
+      height: 14.5rem; } }
 
 .logo {
   display: block;
   position: absolute;
   height: 20vw;
-  top: 2vw;
-  left: 4vw; }
+  top: 4vw;
+  left: 4vw;
+  z-index: 1; }
   @media all and (min-width: 640px) {
     .logo {
       left: 1rem;
-      top: 0.5rem;
+      top: 1rem;
       height: 9.25rem; } }
+
+.waveform {
+  position: absolute;
+  top: 4vw;
+  height: 9.7vw;
+  left: 0;
+  opacity: 0.2;
+  z-index: 0; }
+  @media all and (min-width: 640px) {
+    .waveform {
+      top: 1rem;
+      height: 4.5rem; } }
 
 .dates {
   position: absolute;
   text-align: right;
   margin: 0;
   font-size: 4vw;
-  left: 2vw;
-  bottom: -10vw; }
+  left: 4vw;
+  bottom: 4vw; }
   @media all and (min-width: 640px) {
     .dates {
       left: 1rem;
-      bottom: -1rem;
+      bottom: 1rem;
       font-size: 2rem; } }
 
 .schedule {
